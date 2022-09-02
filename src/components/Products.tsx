@@ -25,7 +25,7 @@ export const Products = ({ product }: ProductProps) => {
             {
                 details && <div>
                     <p>{product.description}</p>
-                    <p>Rete: <span className='font-bold'>{product.rating.rate}</span></p>
+                    <p>Rete: <span className='font-bold'>{product?.rating?.rate}</span></p>
                 </div>
             }
         </div>
